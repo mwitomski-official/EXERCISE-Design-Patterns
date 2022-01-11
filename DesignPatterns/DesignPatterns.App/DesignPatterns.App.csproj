@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns.StateMachine\DesignPatterns.StateMachine.csproj" />
+    <ProjectReference Include="..\DesignPatterns.State\DesignPatterns.State.csproj" />
+    <ProjectReference Include="..\DesignPatterns.Strategy\DesignPatterns.Strategy.csproj" />
+  </ItemGroup>
+
+</Project>
